@@ -13,7 +13,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q MyKaraokeSongbook-Android-Project.zip -d extracted
+          unzip -q MyKaraokeSongbook.zip -d extracted
 
       - name: Set up JDK
         uses: actions/setup-java@v4
